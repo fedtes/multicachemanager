@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheManager", "CacheManger\CacheManager.csproj", "{3BFB9D09-BE0F-49B2-AFFD-56DD911274F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CacheManager", "CacheManger\CacheManager.csproj", "{3BFB9D09-BE0F-49B2-AFFD-56DD911274F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheManagerTest", "CacheManagerTest\CacheManagerTest.csproj", "{D76A2A4A-CEA5-49C6-AB28-667C4C4EE1DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{97FC296D-0606-434E-AEE7-D3843CB511EF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{3BFB9D09-BE0F-49B2-AFFD-56DD911274F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BFB9D09-BE0F-49B2-AFFD-56DD911274F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BFB9D09-BE0F-49B2-AFFD-56DD911274F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76A2A4A-CEA5-49C6-AB28-667C4C4EE1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76A2A4A-CEA5-49C6-AB28-667C4C4EE1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76A2A4A-CEA5-49C6-AB28-667C4C4EE1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76A2A4A-CEA5-49C6-AB28-667C4C4EE1DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
